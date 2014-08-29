@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="607519538">
+    <data-source source="LOCAL" name="Oracle - xe@localhost" uuid="2e86bf4a-ed52-416e-bbc3-285d61565ae8">
+      <driver-ref>oracle</driver-ref>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@//localhost:1521/xe</jdbc-url>
+      <user-name>ildar</user-name>
+      <user-password>df9bdf98df99df9e</user-password>
+      <schema-pattern>*.ILDAR</schema-pattern>
+      <default-schemas>*.ILDAR</default-schemas>
+      <vm-options>-Duser.langauge=en -Duser.country=us</vm-options>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+

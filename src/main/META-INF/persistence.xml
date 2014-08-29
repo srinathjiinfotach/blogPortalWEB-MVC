@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" version="2.0">
+    <persistence-unit name="persistenceUnit">
+        <class>ru.ildar.entities.Article</class>
+        <class>ru.ildar.entities.Comment</class>
+        <class>ru.ildar.entities.User</class>
+        <class>ru.ildar.entities.UserDetails</class>
+        <properties>
+            <property name="toplink.jdbc.url" value="jdbc:oracle:thin:@//localhost:1521/xe"/>
+            <property name="toplink.jdbc.driver" value="oracle.jdbc.OracleDriver"/>
+            <property name="toplink.jdbc.user" value="ildar"/>
+            <property name="toplink.jdbc.password" value="1234"/>
+            <property name="hibernate.connection.url" value="jdbc:oracle:thin:@//localhost:1521/xe"/>
+            <property name="hibernate.connection.driver_class" value="oracle.jdbc.OracleDriver"/>
+            <property name="hibernate.connection.username" value="ildar"/>
+            <property name="hibernate.connection.password" value="1234"/>
+            <property name="openjpa.ConnectionURL" value="jdbc:oracle:thin:@//localhost:1521/xe"/>
+            <property name="openjpa.ConnectionDriverName" value="oracle.jdbc.OracleDriver"/>
+            <property name="openjpa.ConnectionUserName" value="ildar"/>
+            <property name="openjpa.ConnectionPassword" value="1234"/>
+            <property name="eclipselink.jdbc.url" value="jdbc:oracle:thin:@//localhost:1521/xe"/>
+            <property name="eclipselink.jdbc.driver" value="oracle.jdbc.OracleDriver"/>
+            <property name="eclipselink.jdbc.user" value="ildar"/>
+            <property name="eclipselink.jdbc.password" value="1234"/>
+        </properties>
+    </persistence-unit>
+</persistence>
